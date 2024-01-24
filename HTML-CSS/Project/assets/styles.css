@@ -1,0 +1,134 @@
+/* Mangata and Gallo es una joyería especializada en ocasiones especiales, como compromisos, bodas y aniversario. La empresa de joyería opera principalmente en línea y tiene un pequeño escaparate en Austin, Texas con un taller anexo para echar un vistazo. La selección de joyas de Mangata & Gallo es conocida por su alta calidad y su aspecto clásico. La propietaria, natural de Austin, es conocida por sus diseños de joyería.  
+
+Mariana es la propietaria y diseñadora principal de Mangata and Gallo. Tras graduarse en la escuela de diseño con especialización en talla de diamantes y forja de metales, Mariana abrió una tienda en su ciudad natal, Austin, y empezó a hacer crecer su negocio en Internet. Mariana siempre ha gestionado todos los aspectos del negocio, desde el diseño de joyas hasta el marketing y el comercio electrónico. Sin embargo, recientemente ha contratado a varios artesanos para que le ayuden a elaborar sus diseños y a una joven empleada para que le ayude a gestionar la página web de la empresa y sus cuentas en las redes sociales. */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    padding: 5px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.5em ;
+}
+p {
+    font-size: 1.2em;
+}
+
+li {
+    font-size: 1.5em;
+}
+body {
+    background-color: #dfdacf ;
+    color : black;
+}
+.header {
+    display: flex;
+    padding: 40px;
+    
+}
+.header img {
+    width: 1000px;
+    height: 220px;
+    margin: auto;
+    padding: 40px;
+}
+
+.nav {
+    display: flex;
+    background-color: #000000;
+    color: white;
+    margin: auto;
+    border-radius: 20px;
+    justify-content: space-between;
+    box-shadow: 5px 5px 10px #efb810;
+    
+}
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: auto;
+    
+
+    
+}
+li {
+    padding: 10px;
+}
+li:hover {
+    cursor: pointer;
+    color: #efb810;
+    transition-duration: 1s;
+
+}
+
+
+.article {
+    display: flex;
+    margin: auto;
+    padding: 40px;
+
+}
+
+.articles {
+display: flex;
+justify-content: space-between;}
+
+.section {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    background: #000000;
+    color: white;
+    border-radius: 20px;
+    padding: 40px;
+    margin: auto;
+    box-shadow: 5px 5px 10px #efb810;
+}
+
+.section:hover {
+        width: 300px;
+        height: 300px;
+        text-align: center;
+        background: #efb810;
+        transition-duration: 1s;
+        color: black;
+        border-radius: 20px;
+        padding: 40px;
+        margin: auto;
+        cursor: pointer;
+        box-shadow: 5px 5px 10px #000000;
+    
+}
+
+.footer {
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+}
+
+.footer_logo img {
+    width: 200px;
+    height: 40px;
+}
+
+.copyright {
+    margin: 20px
+}
+
+.copyright:hover {
+    color: #efb810;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+
